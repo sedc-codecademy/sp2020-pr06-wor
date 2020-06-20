@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.right-menu {
+    float: right;
+    height: 100vh;
+    width: 20%;
+    background-color: #f0e68c;
+    border: 1px solid#a0522d;
+}
+
+.right-menu img {
+    height: 120px;
+    width: 240px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.settings {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px 0;
+    color: #a0522d;
+}
+
+.settings i {
+    cursor: pointer;
+}
+
+.text-area {
+    margin: 25px 0;
+}
+
+.text-area p {
+    margin: 25px;
+    padding: 10px;
+    height: 200px;
+    border: solid #a0522d 1px;
+    overflow: auto;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+.menu button {
+    border: none;
+    background-color: #a0522d;
+    color: #f0e68c;
+    border: solid 1px #f0e68c;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: 0.2s;
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 5px;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+.menu button:hover {
+    background-color: #f0e68c;
+    color: #a0522d;
+    border: solid 1px #a0522d;
+    transition: 0.2s;
+}
+
+.menu-help {
+    margin-bottom: 40px;
+}
+
+
+
+/* ---------------------------------------------------------- */
+/* Modal Content */
+/* ---------------------------------------------------------- */
+
+
+.modal-content {
+    background-color: #f0e68c;
+    color: #a0522d;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 20px;
+}
+
+.modal-content ol,
+.modal-content ul {
+    margin-left: 20px;
+    padding: 16px;
+}
+
+.modal-content h1,
+.modal-content h2,
+.modal-content h3 {
+    text-align: center;
+    padding: 16px;
+}
+
+.modal-content h4 {
+    padding: 5px 0;
+}
+
+.modal-content p,
+.modal-content h4 {
+    text-align: left;
+}
+
+.modal-header,
+.modal-footer {
+    border-top: none;
+    border-bottom: none;
+}
+
+
+/* ---------------------------------------------------------- */
+/* Rules */
+/* ---------------------------------------------------------- */
+
+.rulesModal img {
+    float: right;
+    margin-left: 10px;
+}
+
+/* ---------------------------------------------------------- */
+/* New Game */
+/* ---------------------------------------------------------- */
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    /* margin-top: 20px;
+      margin-bottom: 20px; */
+}
+
+.middle-avatars {
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 1px;
+      margin-right: 1px; */
+}
+
+.middle-btns {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-weight: bold;
+}
+
+.middle-btn {
+    display: block;
+    margin: auto;
+    font-weight: bold;
+}
+
+.margin-top-bottom {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img-avatar {
+    transition: transform 0.2s;
+}
+
+.img-avatar:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.newGameModal {
+    margin-top: -45px;
+}
+
+.newGameModal button {
+    border: none;
+    background-color: #a0522d;
+    color: #f0e68c;
+    border: solid 1px #f0e68c;
+    text-align: center;
+    padding: 2px 15px;
+    border-radius: 5px;
+    font-size: 25px;
+    transition: 0.2s;
+    margin-top: 5px;
+}
+
+.newGameModal button:hover {
+    background-color: #f0e68c;
+    color: #a0522d;
+    border: solid 1px #a0522d;
+    transition: 0.2s;
+}
+
+.chosenAvatar {
+    margin-left: 25%;
+}
+
+.chosenAvatar p {
+    text-align: center;
+}
+
+/* ---------------------------------------------------------- */
+/* Settings */
+/* ---------------------------------------------------------- */
+
+.settings-modal {
+    margin-top: -50px;
+}
+
+.modal-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modal-flex p {
+    text-align: center;
+}
+
+.img-button1,
+.img-button2,
+.img-button3 {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.settings button {
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.settings button#playpausebtn {
+    background: url(https://image.flaticon.com/icons/svg/189/189889.svg) no-repeat;
+    width: 10%;
+    /* height: 100px; */
+    /* display: block;
+    margin: auto; */
+}
+
+.settings button#mutebtn {
+    background: url(https://image.flaticon.com/icons/svg/204/204287.svg) no-repeat;
+    width: 10%;
+    /* height: 100px; */
+    /* display: block;
+    margin: auto; */
+}
